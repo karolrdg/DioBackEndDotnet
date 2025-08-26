@@ -1,10 +1,17 @@
 ﻿using Fundamentos.Models;
 
-Pessoa pessoa1 = new Pessoa();
+DateTime dataAtual = DateTime.Now;
+Console.WriteLine($"Data atual: {dataAtual}");
+//string apresentacao = "Teste";
+//int quantidade = 1;
+//double altura = 1.80;   
 
-    pessoa1.Nome= "João";
-    pessoa1.Idade = 15;
+//Console.WriteLine($"Apresentação: {apresentacao}, Quantidade: {quantidade}, Altura: {altura}");
 
-pessoa1.Apresentar();
+
+// Inicializa a classe e as propriedades de uma só vez
+//Pessoa pessoa1 = new Pessoa("João", 15);
+
+//pessoa1.Apresentar();
 
 
