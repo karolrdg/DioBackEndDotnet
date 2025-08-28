@@ -1,6 +1,4 @@
 ﻿
-using Fundamentos.Models; // importa a classe Pessoa
-
 /*public class Program
 {
     static void Main()
@@ -13,10 +11,51 @@ using Fundamentos.Models; // importa a classe Pessoa
 
 */
 
-Console.WriteLine("Digite uma letra");
+/*Console.WriteLine("Digite uma letra");
 string letra = Console.ReadLine();
 
-if (letra == "a" ||
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+    default:
+        Console.WriteLine("Consoante");
+        break;
+}
+*/
+/*DisplayCharacter('K');  // Output: A lowercase letter: f
+DisplayCharacter('7');  // Output: An uppercase letter: R
+DisplayCharacter('8');  // Output: A digit: 8
+DisplayCharacter('u');  // Output: Not alphanumeric character: ,
+
+void DisplayCharacter(char ch)
+{
+    if (char.IsUpper(ch))
+    {
+        Console.WriteLine($"An uppercase letter: {ch}");
+    }
+    else if (char.IsLower(ch))
+    {
+        Console.WriteLine($"A lowercase letter: {ch}");
+    }
+    else if (char.IsDigit(ch))
+    {
+        Console.WriteLine($"A digit: {ch}");
+    }
+    else
+    {
+        Console.WriteLine($"Not alphanumeric character: {ch}");
+    }
+}*/
+
+
+/*if (letra == "a" ||
 letra == "e" ||
 letra == "i" ||
 letra == "o" ||
@@ -29,5 +68,7 @@ else
 {
     Console.WriteLine("Consoante");
 }
+*/
+
 
 

@@ -1,0 +1,13 @@
+{
+    // Formatar sempre que salvar
+    "[csharp]": {
+        "editor.formatOnSave": true
+    },
+
+    // Tamanho da indentação
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    // Usar o formatador do C#
+    "dotnet.format.enable": true
+}
