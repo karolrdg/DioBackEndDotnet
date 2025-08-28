@@ -70,5 +70,22 @@ else
 }
 */
 
+namespace ProdutividadeEmCSharp
+{
+			class Program
+				{
+							static	void	Main(string[]	args)
+								{
+											int	vitoria;
+											vitoria	=	1;
+												Console.WriteLine(++vitoria);
 
+
+												vitoria	=	1;
+												Console.WriteLine(vitoria++);
+                                                
+												Console.WriteLine(vitoria);
+								}
+				}
+}
 
