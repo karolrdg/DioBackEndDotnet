@@ -1,3 +1,5 @@
+using System;
+
 namespace Fundamentos.Models
 {
     public class Pessoa
@@ -5,7 +7,6 @@ namespace Fundamentos.Models
         public string Nome { get; set; }
         public int Idade { get; set; }
 
-        // Adicione um construtor que inicializa as propriedades
         public Pessoa(string nome, int idade)
         {
             Nome = nome;
