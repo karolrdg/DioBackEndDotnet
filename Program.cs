@@ -1,4 +1,4 @@
-﻿
+﻿using Fundamentos.Models; 
 /*public class Program
 {
     static void Main()
@@ -70,22 +70,30 @@ else
 }
 */
 
-namespace ProdutividadeEmCSharp
+/*namespace ProdutividadeEmCSharp
 {
-			class Program
-				{
-							static	void	Main(string[]	args)
-								{
-											int	vitoria;
-											vitoria	=	1;
-												Console.WriteLine(++vitoria);
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int vitoria;
+            vitoria = 1;
+            Console.WriteLine(++vitoria);
 
 
-												vitoria	=	1;
-												Console.WriteLine(vitoria++);
-                                                
-												Console.WriteLine(vitoria);
-								}
-				}
+            vitoria = 1;
+            Console.WriteLine(vitoria++);
+
+            Console.WriteLine(vitoria);
+        }
+    }
 }
+*/
 
+
+
+Calculadora calc = new Calculadora();
+calc.Somar(5, 3);
+calc.Subtrair(5, 3);
+calc.Multiplicar(5, 3);
+calc.Dividir(5, 3);
