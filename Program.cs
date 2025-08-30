@@ -1,4 +1,4 @@
-﻿using Fundamentos.Models; 
+﻿using Fundamentos.Models;
 /*public class Program
 {
     static void Main()
@@ -88,12 +88,46 @@ else
         }
     }
 }
-*/
-
-
-
+12
 Calculadora calc = new Calculadora();
 calc.Somar(5, 3);
 calc.Subtrair(5, 3);
 calc.Multiplicar(5, 3);
 calc.Dividir(5, 3);
+*/
+
+namespace ProdutividadeEmCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Exemplo	de	incremento	em	1
+            /*for (int i = 1; i <= 100; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            for (int i = 5; i >= 1; i--)
+            {
+                Console.WriteLine(i);
+            }
+
+            for (int i = 1; i <= 5; i += 2)
+            {
+                Console.WriteLine(i);
+            }
+*/
+            {
+                int i = 1;
+                while (i < 5)
+                {
+                    Console.WriteLine(i);
+                    i++;
+                }
+            }
+
+
+        }
+    }
+}
