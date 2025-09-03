@@ -13,7 +13,12 @@ for (int contador = 0; contador < arrayInteiros.Length; contador++)
     Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
 }
 
-
+int valorPosicao = 0;
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Valor de cada posição do array: {valorPosicao} - {valor}");
+    valorPosicao++;
+}
 
 
 
