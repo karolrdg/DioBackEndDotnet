@@ -8,11 +8,10 @@ arrayInteiros[2] = 23;
 arrayInteiros[3] = 56;
 arrayInteiros[4] = 91;
 
-foreach (int numero in arrayInteiros)
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
 {
-    Console.WriteLine(numero);
+    Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
 }
-
 
 
 
