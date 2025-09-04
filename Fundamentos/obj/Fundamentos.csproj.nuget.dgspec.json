@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj": {}
+    "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj": {
+    "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj",
+        "projectUniqueName": "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj",
         "projectName": "Fundamentos.Common",
-        "projectPath": "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj",
+        "projectPath": "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\obj\\",
+        "outputPath": "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj": {
+    "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj",
+        "projectUniqueName": "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj",
         "projectName": "Fundamentos",
-        "projectPath": "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj",
+        "projectPath": "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\Fundamentos.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\obj\\",
+        "outputPath": "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj": {
-                "projectPath": "C:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj"
+              "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj": {
+                "projectPath": "c:\\Users\\user\\DIO - CSHARP\\Fundamentos\\Fundamentos.Common\\Fundamentos.Common.csproj"
               }
             }
           }
