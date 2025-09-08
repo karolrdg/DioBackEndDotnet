@@ -28,35 +28,54 @@
 // //     indice++;
 
 
-class Programa
+// class Programa
+// {
+//     static void Main()
+//     {
+//         string? entrada = Console.ReadLine();
+
+//         // TODO: Verifique se a entrada é igual a "basico"
+//         if (entrada == "basico")
+//         {
+//             // Imprime a recomendação para o plano básico
+//             Console.WriteLine("Recomendado: plano basico");
+//         }
+
+//         // TODO: Caso contrário, verifique se a entrada é igual a "intermediario"
+//         else if (entrada == "intermediario")
+//         {
+//             // TODO: Se for, imprima a recomendação para o plano intermediario
+//             Console.WriteLine("Recomendado: plano intermediario");
+//         }
+
+//         // TODO: Se não for nenhum dos anteriores, verifique se é "avancado" ou "premium"
+
+//         else if (entrada == "avancado" || entrada == "premium")
+//         {
+//             Console.WriteLine("Recomendado: plano avancado");
+//         }
+//     }
+// }
+
+
+
+class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        string? entrada = Console.ReadLine();
+        // Se o usuário apertar Enter sem digitar nada, transforma em string vazia
+        string entrada = Console.ReadLine() ?? "";
 
-        // TODO: Verifique se a entrada é igual a "basico"
-        if (entrada == "basico")
-        {
-            // Imprime a recomendação para o plano básico
-            Console.WriteLine("Recomendado: plano basico");
-        }
+        // Divide a entrada em partes
+        string[] partes = entrada.Split(' ');
 
-        // TODO: Caso contrário, verifique se a entrada é igual a "intermediario"
-        else if (entrada == "intermediario")
-        {
-            // TODO: Se for, imprima a recomendação para o plano intermediario
-            Console.WriteLine("Recomendado: plano intermediario");
-        }
+        // Pega o primeiro elemento
+        string quantidade = partes[0];
 
-        // TODO: Se não for nenhum dos anteriores, verifique se é "avancado" ou "premium"
-
-        else if (entrada == "avancado" || entrada == "premium")
-        {
-            Console.WriteLine("Recomendado: plano avancado");
-        }
+        // Mostra a saída
+        Console.WriteLine(quantidade + " interacoes");
     }
 }
-
 
 
 
